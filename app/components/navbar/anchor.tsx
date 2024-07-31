@@ -7,7 +7,8 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import { Button, Typography } from '@mui/material';
 
-import { LogoDarkIcon } from '@/app/assets/icons/logoDark';
+import theme from '@/app/theme/theme';
+import { LogoDarkIcon } from '@/app/assets/icons';
 
 interface AnchorTemporaryDrawerProps {
   open: boolean;
@@ -42,6 +43,7 @@ export default function AnchorTemporaryDrawer({
         }}
       >
         <LogoDarkIcon />
+
         <Typography sx={{ paddingLeft: '12px' }}>ACME Corporation</Typography>
       </Box>
       <List sx={{ padding: 0 }}>
@@ -122,6 +124,7 @@ export default function AnchorTemporaryDrawer({
       open={open}
       onClose={onClose}
       PaperProps={{ sx: { boxShadow: 'none' } }}
+      sx={{ [theme.breakpoints.up('tablet')]: { display: 'none' } }}
     >
       {list}
     </Drawer>
