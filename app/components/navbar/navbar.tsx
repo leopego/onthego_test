@@ -14,7 +14,6 @@ import {
   MenuHamburguerIcon,
   MenuCloseIcon,
   LogoDarkIcon,
-  Dots,
 } from '@/app/assets/icons';
 import { NavLink } from './navLink';
 import { Typography } from '@mui/material';
