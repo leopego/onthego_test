@@ -3,7 +3,9 @@ import { LogoIcon } from './logo';
 import { LogoDarkIcon } from './logoDark';
 import { MenuCloseIcon } from './menuClose';
 import { MenuHamburguerIcon } from './menuHamburguer';
-import { Dots } from './dots';
+import { DotsIcon } from './dots';
+import { FinishDotsIcon } from './finishDots';
+import { PlusIcon } from './plus';
 
 export {
   LogoIcon,
@@ -11,5 +13,7 @@ export {
   MenuCloseIcon,
   MenuHamburguerIcon,
   LogoDarkIcon,
-  Dots,
+  DotsIcon,
+  FinishDotsIcon,
+  PlusIcon,
 };
